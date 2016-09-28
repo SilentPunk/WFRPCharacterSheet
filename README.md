@@ -1,16 +1,16 @@
 WFRPCharacterSheet (Warhammer Fantasy RolePlay CharacterSheet)
 
 Jest to projekt tworzony z myślą o graczach jednego z najpopularniejszego systemu RPG, jakim jest Warhammer Fantasy Roleplay (II edycja).
-W programie będzie możlwiość tworzenia nowych postaci oraz ich zapisu. Ponadto sam program będzie oferować testów konkretnych cech bez możliwości
+W programie będzie możliwość tworzenia nowych postaci oraz ich zapisu. Ponadto sam program będzie oferować testów konkretnych cech bez możliwości
 podglądu konkretnego wyniku (na ekranie pojawi się tylko informacja dotycząca czy dany test jest zdany lub nie zdany).
 
-Sam projekt traktuje przedewszystkim jako element nauki. Na ten moment zostały zaimplementowane:
+Sam projekt traktuje przede wszystkim jako element nauki. Na ten moment zostały zaimplementowane:
 
 1) <a href = "https://github.com/SlintPunk/WFRPCharacterSheet/tree/master/app/src/main/java/com/example/android/warhammerfrpcharactersheet"> Kod obsługujący ekran startowy (MainActivity) oraz wybór rasy (RaceChoiceActivity), </a>
         
 2) <a href = "https://github.com/SlintPunk/WFRPCharacterSheet/blob/master/app/src/main/java/warhammercharactercreator/Character.java"> Klasa obsługująca konkretną postać (Character.java), </a>
 
-3) <a href = "https://github.com/SlintPunk/WFRPCharacterSheet/tree/master/app/src/main/java/warhammercharactercreator">Abstakcyjna klasa odpowiedzialna za rasę (Race.java) oraz odpowiednie klasy dziedziczące (Elf.java itd.) </a>
+3) <a href = "https://github.com/SlintPunk/WFRPCharacterSheet/tree/master/app/src/main/java/warhammercharactercreator">Abstrakcyjna klasa odpowiedzialna za rasę (Race.java) oraz odpowiednie klasy dziedziczące (Elf.java itd.) </a>
 
 4) <a href = "https://github.com/SlintPunk/WFRPCharacterSheet/blob/master/app/src/main/java/warhammercharactercreator/RaceFactory.java"> Wzorzec projektowy prosta fabryka (statyczna) do obsługi tworzenia obiektów rasy. </a>
 
